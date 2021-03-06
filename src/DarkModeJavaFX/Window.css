@@ -1,0 +1,40 @@
+#root{
+
+    -fx-alignment: center;
+    -fx-padding: 15px;
+    -fx-spacing: 15px;
+    -fx-font: 18px bold;
+    -fx-focus-color: transparent;
+    -fx-font-family: "Fira Sans";
+}
+
+#btnPanel{
+    -fx-spacing: 20px;
+    -fx-alignment: center;
+}
+
+#labelBlue{
+    -fx-background-color: #50bbf1;
+}
+
+#labelGreen{
+    -fx-background-color: #6ef150;
+ }
+
+#labelRed{
+    -fx-background-color: #f1505d;
+}
+
+.button{
+    -fx-padding: 9px;
+}
+
+.button:hover{
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(144, 128, 128, 0.7), 13, 0, 0, 0);
+}
+
+.label{
+    -fx-padding: 5px;
+    -fx-background-radius: 20px;
+}

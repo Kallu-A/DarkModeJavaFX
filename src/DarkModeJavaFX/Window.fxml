@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="DarkModeJavaFX.WindowHandler"
+            stylesheets="@../DarkModeJavaFX/Window.css">
+
+<VBox id="root">
+    <Label id="labelBlue"> Text in blue </Label>
+    <Label id="labelRed"> Another text but in red </Label>
+    <Label id = "labelGreen"> The last text in green </Label>
+    <HBox id="btnPanel">
+        <Button onAction="#handlerDarkMode" focusTraversable="false"> Dark Mode </Button>
+        <Button onAction="#handlerNormalMode" focusTraversable="false"> Normale Mode </Button>
+    </HBox>
+</VBox>
+
+
+</AnchorPane>
