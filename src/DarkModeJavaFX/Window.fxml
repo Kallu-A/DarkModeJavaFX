@@ -14,7 +14,7 @@
     <Label id = "labelGreen"> The last text in green </Label>
     <HBox id="btnPanel">
         <Button onAction="#handlerDarkMode" focusTraversable="false"> Dark Mode </Button>
-        <Button onAction="#handlerNormalMode" focusTraversable="false"> Normale Mode </Button>
+        <Button onAction="#handlerNormalMode" focusTraversable="false"> Normal Mode </Button>
     </HBox>
 </VBox>
 

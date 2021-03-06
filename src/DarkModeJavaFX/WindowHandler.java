@@ -24,7 +24,7 @@ public class WindowHandler implements Initializable {
     protected void handlerNormalMode(ActionEvent e){
         Button button = (Button) e.getSource();
         Scene scene = button.getScene();
-        //style for the normale mode
+        //style for the normal mode
         scene.getRoot().setStyle("");
     }
 
