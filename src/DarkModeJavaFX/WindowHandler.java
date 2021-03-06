@@ -9,6 +9,7 @@ import javafx.scene.control.Button;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+/** handler for Window*/
 public class WindowHandler implements Initializable {
 
     @FXML

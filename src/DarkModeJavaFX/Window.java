@@ -23,8 +23,8 @@ public class Window extends Application {
         stage.show();
     }
 
+
     public static void launchWindow(String[] args){
         launch(args);
     }
-
 }

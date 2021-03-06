@@ -4,6 +4,5 @@ module javaFXTry1 {
     requires javafx.fxml;
 
     opens DarkModeJavaFX to javafx.fxml;
-
     exports DarkModeJavaFX to javafx.graphics;
 }
